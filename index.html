@@ -12,17 +12,70 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+
+    <style></style>
   </head>
   <body>
     <header>
-      <div class="header-title">Projects & Achivements</div>
+      <div class="header-title">project archive</div>
+      <div class="header-title-tab">archive</div>
       <div class="header-sections-display-div">
         <div class="header-projects">Projects</div>
         <div class="header-achivements">Achivements</div>
       </div>
     </header>
 
-    <script src="./main.js"></script>
+    <section class="grid-section">
+      <div class="grid-section-cards"></div>
+
+      <div class="popup-overlay">
+        <div class="popup-div">
+          <div class="popup-discription"></div>
+          <div class="popup-close-button">Close</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="profile-box">
+        <div class="profile-box-title">PROFILE</div>
+        <div class="profile-box-picture">
+          <img
+            src="https://i.ibb.co/mV6VhWFn/profile.jpg"
+            alt=""
+            class="profile-box-picture-img"
+          />
+        </div>
+
+        <div class="profile-box-username">username</div>
+        <div class="profile-box-quot">quots</div>
+      </div>
+
+      <div class="tech-stack-box">
+        <div class="tech-stack-box-title">TECH STACK</div>
+        <div class="tech-stack-box-data">
+          <div class="tech-stack-bax-tech">react.js</div>
+        </div>
+      </div>
+
+      <div class="social-media-box">
+        <div class="social-media-box-title">SOCIAL LINKS</div>
+        <div class="social-media-div">
+          <a href="google.com" target="_blank" class="social-media">
+            <img
+              src="https://i.ibb.co/xSjWGshs/githu.jpg"
+              alt=""
+              class="social-media-icon"
+            />
+            <div class="social-media-name">Akash777</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

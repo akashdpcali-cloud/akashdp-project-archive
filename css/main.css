@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(38, 69, 59);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  margin-top: 70px;
+  width: 100%;
+  min-height: 100dvh;
+  background-color: gray;
+  display: flex;
+  margin-right: 400px;
+  padding-right: 400px;
+}
