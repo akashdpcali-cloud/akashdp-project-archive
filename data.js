@@ -664,11 +664,12 @@ export const projectsData = [
 
 // -------------------------- ACHIVEMENTS ---------------------------
 export const achivements = [
+  // 1 MAX PULL UPS
   {
     id: 100001,
     title: "max pullups",
     projectType: "Pull",
-    projectImg: "https://i.ibb.co/cct754W7/pull.png",
+    projectImg: "https://i.ibb.co/m3mdrp4/pull.png",
 
     techStack: [
       {
