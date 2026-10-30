@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(38, 69, 59);
+  background-color: #ef0079;
   font-family: "Roboto", sans-serif;
 }
 
@@ -9,7 +9,7 @@ main {
   margin-top: 70px;
   width: 100%;
   min-height: 100dvh;
-  background-color: gray;
+  background-color: #ef0079;
   display: flex;
   margin-right: 400px;
   padding-right: 400px;

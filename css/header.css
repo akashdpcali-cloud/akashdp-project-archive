@@ -1,6 +1,6 @@
 header {
-  background-color: black;
-  color: rgb(222, 222, 222);
+  background-color: #c6ea1b;
+  color: #222025;
   position: fixed;
   left: 0;
   right: 0;
@@ -24,7 +24,7 @@ header {
 .header-title {
   font-weight: 900;
   font-size: 30px;
-  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.677);
+  text-shadow: 3px 3px 5px #22202569;
 }
 .header-title-tab {
   display: none;
@@ -34,17 +34,17 @@ header {
   cursor: pointer;
 }
 .header-sections-display-div *:hover {
-  background-color: rgb(3, 254, 237);
-  box-shadow: 0px 0px 10px rgb(3, 254, 237);
-  color: black;
+  background-color: #ef0079;
+  box-shadow: 0px 0px 10px #ef0079;
+  color: #222025;
   padding: 5px 15px;
   border-radius: 3px;
 }
 
 .header-sections-display-div *.active {
-  background-color: rgb(3, 254, 237);
-  box-shadow: 0px 0px 10px rgb(3, 254, 237);
-  color: black;
+  background-color: #ef0079;
+  box-shadow: 0px 0px 10px #ef0079;
+  color: #222025;
   padding: 5px 15px;
   border-radius: 3px;
 }

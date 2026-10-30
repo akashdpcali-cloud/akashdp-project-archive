@@ -36,9 +36,9 @@
   align-items: center;
   text-align: center;
   row-gap: 15px;
-  background-color: rgb(38, 69, 59);
+  background-color: #ef0079;
   color: #fff;
-  padding: 15px 24px;
+  padding: 50px 24px;
   border-radius: 12px;
 
   max-width: 600px;
@@ -46,7 +46,7 @@
   width: 90%;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgb(81, 145, 125) transparent;
+  scrollbar-color: #c6ea1b transparent;
 
   justify-self: center;
   align-self: center;
@@ -59,7 +59,7 @@
   max-height: 400px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgb(81, 145, 125) transparent;
+  scrollbar-color: #c6ea1b transparent;
 }
 
 .popup-discription::-webkit-scrollbar {
@@ -71,16 +71,16 @@
 }
 
 .popup-discription::-webkit-scrollbar-thumb {
-  background: rgb(81, 145, 125); /* your theme color */
+  background: #c6ea1b; /* your theme color */
   border-radius: 10px;
 }
 
 .popup-discription::-webkit-scrollbar-thumb:hover {
-  background: rgb(111, 194, 167); /* lighter shade on hover */
+  background: #c6ea1b; /* lighter shade on hover */
 }
 
 .popup-close-button {
-  background-color: pink;
+  background-color: #c6ea1b;
   justify-self: center;
   cursor: pointer;
   padding: 3px 10px;
@@ -92,7 +92,7 @@
 }
 .popup-close-button:hover {
   color: rgb(67, 67, 67);
-  background-color: rgb(255, 208, 216);
+  background-color: #c8ea1bec;
   box-shadow: 0px 0px 5px rgba(255, 192, 203, 0.622);
 }
 
@@ -103,13 +103,13 @@
   justify-content: center;
   row-gap: 20px;
   border-radius: 15px;
-  border: solid 2px rgba(127, 255, 212, 0.316);
-  box-shadow: 0px 0px 8px rgba(127, 255, 212, 0.316);
-  background-color: rgb(18, 33, 28);
+
+  box-shadow: 0px 0px 8px #222025;
+  background-color: #c6ea1b;
   transition: 0.5s;
 }
 .grid-section-card:hover {
-  box-shadow: 0px 0px 8px rgb(1, 254, 254);
+  box-shadow: 0px 0px 10px #222025;
   scale: 101%;
 }
 
@@ -126,18 +126,18 @@
 }
 
 .grid-section-card-title {
-  color: aquamarine;
+  color: #222025;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
-  text-shadow: 0px 0px 15px rgba(127, 255, 212, 0.7);
+  text-shadow: 3px 3px 8px #22202585;
 }
 
 .grid-section-card-read-button {
   text-transform: uppercase;
-  background-color: rgba(127, 255, 212, 0.341);
-  border: solid 1.5px rgba(127, 255, 212, 0.321);
-  color: aquamarine;
+
+  border: solid 2px #ef0079;
+  color: #ef0079;
   border-radius: 50px;
   padding: 5px 15px;
   cursor: pointer;
@@ -145,13 +145,13 @@
   font-weight: 500;
 }
 .grid-section-card-read-button:hover {
-  background-color: rgb(127, 255, 212);
-  box-shadow: 0px 0px 8px aquamarine;
-  color: black;
+  background-color: #ef0079;
+  box-shadow: 0px 0px 8px #ef0079;
+  color: #222025;
 }
 
 .grid-section-card-stack-type {
-  color: rgb(255, 209, 216);
+  color: #ef0079;
   text-transform: capitalize;
   font-size: 15px;
 }
@@ -167,9 +167,9 @@
 .grid-section-card-key-value-pair {
   display: flex;
   column-gap: 8px;
-  background-color: rgba(127, 255, 212, 0.341);
-  border: solid 1.5px rgba(127, 255, 212, 0.321);
-  color: rgb(140, 228, 248);
+
+  border: solid 2px #ef0079;
+  color: #222025;
   width: fit-content;
   padding: 1px 10px;
   border-radius: 50px;
@@ -198,24 +198,25 @@
   border-radius: 50%;
 }
 .grid-section-card-links-name {
-  color: rgb(255, 209, 216);
+  color: #ef0079;
   text-transform: uppercase;
   font-size: 14px;
 }
 .grid-section-card-links-right-part {
   text-decoration: none;
   color: inherit;
-  background-color: aquamarine;
+  background-color: #ef0079;
   cursor: pointer;
   border-radius: 50px;
   padding: 3px 15px;
   text-transform: uppercase;
   font-size: 15px;
   transition: 0.3s;
+  color: #222025;
 }
 
 .grid-section-card-links-right-part:hover {
-  box-shadow: 0px 0px 8px aquamarine;
+  box-shadow: 0px 0px 8px #ef0079;
 }
 
 .grid-section-card-img {
